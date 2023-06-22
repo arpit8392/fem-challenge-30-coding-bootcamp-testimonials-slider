@@ -1,7 +1,7 @@
 const Testimonial = ({ testimony, author, position }: Testimony) => {
 	return (
 		<div className='flex max-w-sm flex-col gap-5 text-center md:max-w-2xl md:text-left	'>
-			<blockquote className='text-lg font-light text-darkBlue md:text-[32px]/[44px]'>
+			<blockquote className='text-lg font-extralight text-darkBlue md:text-[32px]/[44px]'>
 				{`“ ${testimony} ”`}
 			</blockquote>
 			<div className='flex flex-col items-center md:flex-row md:gap-2'>

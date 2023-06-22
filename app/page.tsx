@@ -34,6 +34,7 @@ export default function Home() {
 								alt={testimonialsData[index].author}
 								width={540}
 								height={540}
+								priority
 								className='z-10 h-full w-full rounded-lg object-contain'
 							/>
 							<div className='absolute bottom-0 z-30 translate-x-20 translate-y-1/2 md:translate-x-1/2 '>
